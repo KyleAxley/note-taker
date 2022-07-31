@@ -2,6 +2,7 @@ const { v4: uuidv4 } = require('uuid');
 const express = require ('express');
 const PORT = process.env.PORT || 3001; 
 const htmlRoutes = require('./routes/htmlRoutes'); 
+const apiRoutes = require('./routes/apiRoutes'); 
 
 //initilze the server
 const app = express(); 
@@ -11,6 +12,7 @@ app.use(express.static('public'));
 app.use(express.json()); 
 //include all routes
 app.use('/', htmlRoutes); 
+app.use('/api', apiRoutes); 
 
 
 
