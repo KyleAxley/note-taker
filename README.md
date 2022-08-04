@@ -10,7 +10,7 @@ note-taker is a simple application that allows users to make notes that must inc
 ## Installation
 * to use this application first clone the app from https://git@github.com:KyleAxley/note-taker.git
 * once repo has been cloned open with vs code and from command line run "npm i"
-* from terminal use "npm start serve.js"
+* from terminal use "npm start server.js"
 * if you would like to use nodemon instead in the terminal run "npm install -g nodemon" and "nodemon" to start server.
 * the server will then start, use http://localhost:3001/ to view Note-Taker!
   
